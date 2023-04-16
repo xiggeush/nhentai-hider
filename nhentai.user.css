@@ -1,0 +1,41 @@
+@-moz-document domain("nhentai.net") {
+  /** Hider **/
+.blacklisted.gallery {
+    opacity: .1;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    will-change: filter;
+    display: none;
+}
+ 
+/** Scrollbar **/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: #0d0d0d; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #383838;
+}
+    
+/** Icons **/
+    
+.fa-heart, .fa-heart-o {
+    margin: 2px;
+    margin-right: 5px;
+}
+    
+i.fa.fa-download {
+    margin-right: 5px;
+}
+    
+/** ID **/
+    
+#info #gallery_id {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+    
+}
